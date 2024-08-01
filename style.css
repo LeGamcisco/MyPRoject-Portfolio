@@ -209,7 +209,7 @@ body {
     bottom: 40px;
     width: 170px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .home-sci::before {
@@ -359,13 +359,12 @@ body {
     line-height: 22px;
 }
 
-
 /* Skill */
 .services {
     background: black;
     color: black;
     padding: 5rem 10%;
-    text-align: center;    
+    text-align: center;
 }
 
 .services h2 {
@@ -376,7 +375,7 @@ body {
 
 .service-container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
@@ -391,14 +390,14 @@ body {
 
 .service-box:hover {
     background-color: white;
-    color:black;
+    color: black;
     border: 5px solid #00ffee;
     transform: scale(1.03);
 }
 
 .service-box .service-info {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     text-align: left;
     max-height: 200px;
     justify-content: center;
@@ -424,7 +423,6 @@ body {
     text-align: center;
     padding-bottom: 25px;
     color: #00ffee;
-
 }
 
 .footer .social a {
@@ -462,16 +460,13 @@ body {
 }
 
 .footer ul li a {
-    color: #00ffee
+    color: #00ffee;
 }
 
 .footer ul li a:hover {
- border-bottom: 3px solid #00ffee;
- color: white;
+    border-bottom: 3px solid #00ffee;
+    color: white;
 }
-
-
-
 
 /* scrollbar */
 ::-webkit-scrollbar {
